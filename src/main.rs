@@ -87,7 +87,7 @@ fn discord_notification(url: &str, message: &str, timeout_sec: u64) -> Result<()
 
 /*-------------------------------------*/
 
-const CONFIG_FILE: &str = "./config.json";
+const CONFIG_FILE: &str = "./conf/config.json";
 
 fn main() {
     env::set_var("RUST_LOG", "info");

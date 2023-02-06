@@ -2,7 +2,7 @@
 
 ## Config
 
-`./config.json`
+`./conf/config.json`
 
 ## Usage
 

@@ -4,5 +4,5 @@ services:
         image: youtube_live_alert
         container_name: youtube_live_alert
         volumes:
-            - ./:/youtube_live_alert
+            - ./conf:/youtube_live_alert/conf
         restart: always
