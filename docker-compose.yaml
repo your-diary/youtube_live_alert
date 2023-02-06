@@ -1,0 +1,8 @@
+services:
+    youtube_live_alert:
+        build: .
+        image: youtube_live_alert
+        container_name: youtube_live_alert
+        volumes:
+            - ./:/youtube_live_alert
+        restart: always
